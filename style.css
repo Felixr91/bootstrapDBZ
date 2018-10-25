@@ -1,0 +1,98 @@
+body{
+  background-color: cornflowerblue;
+}
+
+.orange {
+  background-color: darkorange;
+}
+
+.mainImage{
+  min-width: 50vw;
+  max-width: 65vw;
+  height: auto;
+}
+.greyFont{
+  color: gray;
+}
+
+.goku{
+  max-width: 45vw;
+  height: auto;
+  padding: 20px 30px 20px;
+}
+
+.ultraBackground{
+  background-image: linear-gradient(to right top, #d9e5e7, #a7bec2, #77999f, #47747d, #0b525d);
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.flex-block{
+  display: block;
+  align-self: center;
+  color: white;
+}
+
+.flex-block2{
+  display: block;
+  align-self: center;
+}
+
+.dblogo{
+  max-width: 15vw;
+}
+
+.footer-background{
+  background-color:orange;
+}
+
+.nav-icons * {
+  display: flex;
+  justify-content: center;
+}
+.address{
+  margin: 0;
+}
+
+.center{
+  text-align: center;
+}
+
+.icons-1 {
+  /* padding: 1rem; */
+  display: flex;
+  justify-content: center;
+}
+
+.icons-2 {
+  /* margin-left: .5rem; */
+  /* margin-right: .5rem; */
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  margin-left: .5rem;
+  margin-right: .5rem;
+  margin-bottom: .5rem;
+}
+@media (max-width: 577px) {
+  .mini-address {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .dblogo {
+    max-height: 15vw;
+  }
+  .icons-2 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+}
+
+/*font-family: 'Audiowide', cursive;
+font-family: 'Roboto', sans-serif;*/
